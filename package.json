@@ -1,0 +1,25 @@
+{
+  "name": "lexicross",
+  "version": "0.1.0",
+  "description": "Deterministic level generator for letter-wheel + crossword puzzles",
+  "type": "module",
+  "bin": {
+    "lexicross": "./dist/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.6.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^2.0.0"
+  }
+}
