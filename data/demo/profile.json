@@ -1,0 +1,8 @@
+{
+  "locale": "en",
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "case": "upper",
+  "map": {},
+  "strip": ["-", "'", " "],
+  "rareLetters": { "Q": 0.95, "Z": 0.85, "X": 0.85, "J": 0.80, "K": 0.55, "V": 0.55 }
+}
