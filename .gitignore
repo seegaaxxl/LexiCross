@@ -4,3 +4,4 @@ out/
 data/*
 !data/demo
 !data/demo/**
+.DS_Store
