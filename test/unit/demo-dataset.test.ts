@@ -34,7 +34,7 @@ describe('demo dataset: profile.json', () => {
     expect(() => JSON.parse(raw)).not.toThrow();
   });
 
-  const profile = JSON.parse(raw) as Record<string, unknown>;
+  const profile = JSON.parse(raw) as DemoProfile;
 
   it('has exactly the required keys, no extras', () => {
     expect(Object.keys(profile).sort()).toEqual([...PROFILE_KEYS].sort());
